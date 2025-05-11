@@ -8,6 +8,7 @@ st is a simple terminal emulator for X which sucks less.
 * [vertcenter](https://st.suckless.org/patches/vertcenter/)
 * [anysize](https://st.suckless.org/patches/anysize/)
 * [scrollback](https://st.suckless.org/patches/scrollback/) (ringbuffer, mouse)
+* [background alpha](https://st.suckless.org/patches/alpha/)
 
 ## Requirements
 
