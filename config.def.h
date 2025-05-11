@@ -137,6 +137,7 @@ static const char *colorname[] = {
 	"#555555",
 	"gray90", /* default foreground colour */
 	"black", /* default background colour */
+	"black"
 };
 
 
@@ -147,6 +148,7 @@ static const char *colorname[] = {
 unsigned int defaultfg = 258;
 unsigned int defaultbg = 259;
 unsigned int defaultcs = 256;
+unsigned int defaultcsfg = 260;
 static unsigned int defaultrcs = 257;
 
 /*
@@ -209,6 +211,7 @@ ResourcePref resources[] = {
 	{ "background",      STRING,  &colorname[259] },
 	{ "foreground",      STRING,  &colorname[258] },
 	{ "cursorColor",     STRING,  &colorname[256] },
+	{ "cursorColorFG",   STRING,  &colorname[260] },
 	{ "backgroundAlpha", FLOAT,   &alpha },
 	{ "termname",        STRING,  &termname },
 	{ "shell",           STRING,  &shell },
